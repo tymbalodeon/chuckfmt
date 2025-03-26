@@ -61,3 +61,7 @@ alias find := find-recipe
     ./scripts/view-source.nu {{ recipe }}
 
 alias src := view-source
+
+mod chuckfmt "just/chuckfmt.just"
+
+alias format := chuckfmt::format
